@@ -13,6 +13,10 @@ defmodule Cards do
     dddd
   end
 
+  def new do
+
+  end
+
   def create do
     values = ["Ace", "two", "three", "King"]
     suits = ["clubs", "Diamonds"]
