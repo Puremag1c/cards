@@ -47,6 +47,7 @@ defmodule Cards do
   def go do
     {hand, _other} = Cards.create |> Cards.shuffle |> Cards.deal
     hand
+    other
   end
 
 end
