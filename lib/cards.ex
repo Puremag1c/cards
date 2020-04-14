@@ -7,12 +7,6 @@ defmodule Cards do
   @doc """
     Хуярит колоду
   """
-
-  def fii do
-    dddd = 2 * 2
-    dddd
-  end
-
   def create do
     values = ["Ace", "two", "three", "King"]
     suits = ["clubs", "Diamonds"]
