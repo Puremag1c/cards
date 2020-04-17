@@ -8,8 +8,8 @@ defmodule Cards do
     Хуярит колоду
   """
   def create do
-    values = ["Ace", "two", "three", "King"]
-    suits = ["clubs", "Diamonds"]
+    values = ["Ace", "Two", "Three", "King","Queen","Prince","Ten","Nine","Eight","Seven","Six","Five","Four"]
+    suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
     for suit <- suits, value <- values do
       "#{value} of #{suit}"
